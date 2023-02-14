@@ -3,8 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^14.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.14",
+    "validator": "^13.7.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/fawazino/BuiltToBill/issues"
   },
-  "homepage": "https://github.com/fawazino/BuiltToBill#readme"
+  "homepage": "https://github.com/fawazino/BuiltToBill#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
