@@ -17,6 +17,11 @@ const userSchema = new mongoose.Schema({
         unique: true,
         lowercase: true
     },
+    link:{
+        type: String,
+        unique: true,
+        lowercase: true
+    },
     password:{
         type: String,
         required: [true, 'Please enter a password'],
