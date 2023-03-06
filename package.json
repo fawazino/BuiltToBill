@@ -14,7 +14,8 @@
     "validator": "^13.7.0"
   },
   "scripts": {
-    "test": "nodemon app.js"
+    "test": "nodemon app.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
